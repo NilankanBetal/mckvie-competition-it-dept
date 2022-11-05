@@ -1,0 +1,66 @@
+body{
+    /* color: #FAF7F0; */
+
+}
+
+#title{
+    /* background-color: #000000; */
+    
+}
+
+
+/* Container Fluid */
+.container-fluid{
+    padding: 0%;
+}
+
+.main-title{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #000000;
+    color: #FAF7F0;
+}
+
+
+/* Navbar */
+.navbar{
+    padding-top: 2% 3%;
+}
+
+/* About Trace */
+.display-1{
+    color: #31E1F7;
+}
+
+#about{
+    background-color: #1B2430;
+    color: #FAF7F0;
+    text-align: center;
+    /* padding-top: 3%; */
+    padding: 6% 10%;
+}
+
+.content{
+    margin: 40px;
+}
+
+#card-rounds{
+    background-color: #51557E;
+}
+
+.card{
+    gap: 1.5rem;
+
+}
+
+/* Prizes */
+.prizes-container{
+    background-color: #1B2430;
+    text-align: center;
+    padding: 6% 10%;
+
+}
+
+h3{
+    font-weight: bold;
+}

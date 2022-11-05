@@ -8,6 +8,10 @@ body{
     
 }
 
+img {
+    height: 30%;
+    width: 40%;
+}
 
 /* Container Fluid */
 .container-fluid{
@@ -101,4 +105,17 @@ footer {
     text-align: center;
     padding: 6% 10%;
     color: antiquewhite;
+}
+
+.register-box {
+    background-color: #1B2430;
+    text-align: center;
+    padding: 6% 10%;
+    color: antiquewhite;
+}
+
+.borderBox {
+    border: 3px solid #FD841F;
+    border-radius: 3rem;
+    padding: 6rem;
 }

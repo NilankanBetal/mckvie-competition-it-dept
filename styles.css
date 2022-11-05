@@ -8,6 +8,10 @@ body{
     
 }
 
+img {
+    height: 30%;
+    width: 40%;
+}
 
 /* Container Fluid */
 .container-fluid{
@@ -63,4 +67,55 @@ body{
 
 h3{
     font-weight: bold;
+}
+
+footer {
+    background-color: #152438;
+    color: white;
+    text-align: center;
+}
+
+.card-text {
+    padding-top: 20px;
+}
+
+.rules-content {
+    background-color: #1B2430;
+    text-align: center;
+    padding: 6% 10%;
+    color: antiquewhite;
+}
+
+.venue-content {
+    background-color: #1B2430;
+    text-align: center;
+    padding: 6% 10%;
+    color: antiquewhite;
+}
+
+.shedule-content {
+    background-color: #1B2430;
+    text-align: center;
+    padding: 6% 10%;
+    color: antiquewhite;
+}
+
+.contact-us-content {
+    background-color: #1B2430;
+    text-align: center;
+    padding: 6% 10%;
+    color: antiquewhite;
+}
+
+.register-box {
+    background-color: #1B2430;
+    text-align: center;
+    padding: 6% 10%;
+    color: antiquewhite;
+}
+
+.borderBox {
+    border: 3px solid #FD841F;
+    border-radius: 3rem;
+    padding: 6rem;
 }

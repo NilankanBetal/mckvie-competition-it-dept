@@ -64,3 +64,41 @@ body{
 h3{
     font-weight: bold;
 }
+
+footer {
+    background-color: #152438;
+    color: white;
+    text-align: center;
+}
+
+.card-text {
+    padding-top: 20px;
+}
+
+.rules-content {
+    background-color: #1B2430;
+    text-align: center;
+    padding: 6% 10%;
+    color: antiquewhite;
+}
+
+.venue-content {
+    background-color: #1B2430;
+    text-align: center;
+    padding: 6% 10%;
+    color: antiquewhite;
+}
+
+.shedule-content {
+    background-color: #1B2430;
+    text-align: center;
+    padding: 6% 10%;
+    color: antiquewhite;
+}
+
+.contact-us-content {
+    background-color: #1B2430;
+    text-align: center;
+    padding: 6% 10%;
+    color: antiquewhite;
+}

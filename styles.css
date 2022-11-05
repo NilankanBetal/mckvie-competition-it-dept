@@ -9,8 +9,8 @@ body{
 }
 
 img {
-    height: 30%;
-    width: 40%;
+    height: 50%;
+    width: 75%;
 }
 
 /* Container Fluid */
@@ -76,7 +76,7 @@ footer {
 }
 
 .card-text {
-    padding-top: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 .rules-content {
@@ -118,4 +118,8 @@ footer {
     border: 3px solid #FD841F;
     border-radius: 3rem;
     padding: 6rem;
+}
+
+.traceDes {
+    color: #31E1F7;
 }

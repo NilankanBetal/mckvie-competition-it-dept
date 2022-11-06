@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#main-title">Introduction <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#title">Introduction <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#about">About the event</a>
@@ -64,7 +64,7 @@
           <div class="intro">
             <small class="text-muted">Introducing</small>
             </h1>
-            <img src="./gif_trace_logo.gif" alt="" srcset="">
+            <img src="./gif_trace_logo.gif" class="trace-logo" alt="logo" srcset="">
             <!--
             <br>
             <div>
@@ -74,8 +74,10 @@
             <span>
               <h4>A technical event by the IT Department of MCKVIE</h4>
             </span>
+            <div class="btn-div">
+              <button class="btn btn-success">Register Now!</button>
+            </div>
           </div>
-
           <div class="countdown">
             <!-- Timer countdown -->
           </div>
@@ -101,35 +103,38 @@
 
       <div class="container">
         <div class="card-deck">
-          <div class="rounds-column col-lg-4 col-sm-12">
+          <div class="rounds-column col-lg-4 col-md-6 col-sm-12">
             <div class="card" id="card-rounds">
               <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
               <div class="card-body">
                 <h5 class="card-title">Round 1</h5>
-                <h3 class="card-title">Sochne Do</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h3 class="card-title">Triviac</h3>
+                <img src="quiz.png" alt="triviac">
+                <p class="card-text">MCQ-based questions based on aptitude, Coding, and GK</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" id="card-rounds">
               <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
               <div class="card-body">
                 <h5 class="card-title">Round 2</h5>
                 <h3 class="card-title">Crack-a-code</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <img src="tracking.png" alt="crack-a-code">
+                <p class="card-text">Cracking hints and riddles will give access to the question paper that participants will need to solve on machines</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" id="card-rounds">
-              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
               <div class="card-body">
                 <h5 class="card-title">Round 3</h5>
-                <h3 class="card-title">Incognito</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h3 class="card-title">Blind Coding</h3>
+                <img src="blind.png" alt="blind-coding">
+                <p class="card-text"> Coding questions needed to be solved by participants which will be judged on the basis of speed( the screen will be hidden)
+                </p>
               </div>
             </div>
           </div>
@@ -150,30 +155,34 @@
       <br>
       <div class="container">
         <div class="card-deck">
-          <div class="col-lg-3 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="card" id="prizes" >
               <div class="card-body">
+                <img src="token.png" alt="points">
                 <div class="card-text"><b>5 MAR Points guaranteed on registration and participation.</b></div>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="card" id="prizes" >
               <div class="card-body">
+                <img src="certificate.png" alt="certificate">
                 <div class="card-text"><b>E-Certificate for all participants and physical certificates for top 3 teams.</b></div>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="card" id="prizes" >
               <div class="card-body">
+                <img src="burger.png" alt="food">
                 <div class="card-text"><b>Refreshments for all participants who qualify for Round 2.</b></div>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="card" id="prizes" >
                 <div class="card-body">
+                    <img src="presents.png" alt="prizes">
                     <div class="card-text"><b>Exiciting prizes for Top 3 teams + physical certificates.</b></div>
                 </div>
             </div>
@@ -253,6 +262,7 @@
 </footer>
 
   <script src="scrypt.js"></script>
+  <script src="transition.js"></script>
 </body>
 
 

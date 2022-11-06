@@ -8,10 +8,17 @@ body{
     
 }
 
-img {
+.trace-logo {
     height: 50%;
-    width: 75%;
+    width: 75%; 
 }
+
+img {
+    height: 25%;
+    width: 37%;
+}
+
+
 
 /* Container Fluid */
 .container-fluid{
@@ -19,7 +26,7 @@ img {
 }
 
 .intro{
-    /* padding-top: 3rem; */
+    /* padding-top: 2rem; */
 }
 
 .main-title{
@@ -33,6 +40,10 @@ img {
 /* Navbar */
 .navbar{
     padding-top: 2% 3%;
+}
+
+.btn-div{
+    padding-top: 1.8rem;
 }
 
 /* About Trace */
@@ -130,4 +141,32 @@ footer {
 
 .traceDes {
     color: #31E1F7;
+}
+
+footer{
+    background-color: #FD841F;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+
+
+@media (max-width: 762px){
+    .trace-logo{
+        width: 110%;
+    }
+
+    .intro{
+        padding-top: 4rem;
+    }
+
+    .card-deck{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+      }
+
+      .container{
+        padding: 10%;
+      }
 }

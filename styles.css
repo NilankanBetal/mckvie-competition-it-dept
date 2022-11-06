@@ -18,6 +18,10 @@ img {
     padding: 0%;
 }
 
+.intro{
+    /* padding-top: 3rem; */
+}
+
 .main-title{
     padding: 7% 15%;
     text-align: center;
@@ -62,7 +66,11 @@ img {
     background-color: #1B2430;
     text-align: center;
     padding: 6% 10%;
+}
 
+#prizes{
+    background-color: #1B2430;
+    color: #fff;
 }
 
 h3{

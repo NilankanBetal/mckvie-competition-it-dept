@@ -102,8 +102,12 @@ footer {
 .rules-content {
     background-color: #1B2430;
     text-align: center;
-    padding: 6% 10%;
+    padding: 4% 10%;
     color: antiquewhite;
+}
+
+.register-text{
+    font-size: 1.2rem;
 }
 
 .venue-content {

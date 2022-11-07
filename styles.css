@@ -23,6 +23,7 @@ img {
 /* Container Fluid */
 .container-fluid{
     padding: 0%;
+    background-color: black;
 }
 
 .intro{
@@ -151,6 +152,7 @@ footer{
 
 
 
+
  /* For countdown (from below) */
  /* .countD {
      color: white;
@@ -181,6 +183,7 @@ footer{
 
 
 
+
 @media (max-width: 762px){
     .trace-logo{
         width: 110%;
@@ -193,8 +196,23 @@ footer{
     .card-deck{
         display: flex;
         flex-direction: column;
-        width: 80%;
+        /* width: 80%; */
+        gap: 0.5rem;
       }
+
+      .card-text{
+        padding: 20px 0px 0px 0px;
+      }
+
+      .card{
+        padding: 0px;
+        border: 0px;
+      }
+
+      .card-body{
+        padding: 20px 0px 20px 0px;
+      }
+
 
       .container{
         padding: 10%;

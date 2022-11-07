@@ -151,6 +151,36 @@ footer{
 
 
 
+ /* For countdown (from below) */
+ /* .countD {
+     color: white;
+ } */
+
+ #countDown {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.textStyle {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.borderBox1 {
+    background-color: black;
+    color: #FAF7F0;
+    border: 3px solid #FD841F;
+    border-radius: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+
+
 @media (max-width: 762px){
     .trace-logo{
         width: 110%;

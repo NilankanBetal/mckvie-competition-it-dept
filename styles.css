@@ -133,7 +133,7 @@ footer {
 }
 
 #v-pic{
-    width: 30%;
+    width: 15%;
 }
 
 .shedule-content {
@@ -278,6 +278,10 @@ footer{
       .venue-content{
         padding-bottom:  3rem;
       }
+      
+      #v-pic{
+        width: 30%;
+      }    
 
       /* Register */
       .rules-content{

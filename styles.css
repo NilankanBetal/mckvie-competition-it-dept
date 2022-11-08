@@ -292,6 +292,10 @@ footer{
       .b-logo{
         width: 25%;
       }
+      
+      .org-icons{
+        gap: 1rem;
+      }  
 
       /* Footer */
       footer{

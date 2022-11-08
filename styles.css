@@ -122,8 +122,18 @@ footer {
 .venue-content {
     background-color: #1B2430;
     text-align: center;
-    padding: 6% 10%;
+    /* padding: 6% 10%; */
     color: antiquewhite;
+
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 4rem;
+    position: relative;
+    /* padding-bottom: 3rem; */
+}
+
+#v-pic{
+    width: 15%;
 }
 
 .shedule-content {
@@ -156,6 +166,20 @@ footer {
     border: 3px solid #FD841F;
     border-radius: 3rem;
     padding: 6rem;
+}
+
+/* For org icons  */
+.org-icons {
+    height: 25%;
+    width: 25%;
+    gap: 3rem;
+}
+
+#org-icon {
+    background-color: #1B2430;
+    text-align: center;
+    padding: 6% 10%;
+    color: antiquewhite;
 }
 
 .traceDes {
@@ -250,6 +274,11 @@ footer{
         margin-top: 26px;
       }
 
+      /* venue */
+      .venue-content{
+        padding-bottom:  3rem;
+      }
+
       /* Register */
       .rules-content{
         padding: 2.5rem 1.5rem;
@@ -258,6 +287,10 @@ footer{
       /* Contact us */
       .borderBox{
         padding: 4rem 2rem;
+      }
+
+      .b-logo{
+        width: 40%;
       }
 
       /* Footer */

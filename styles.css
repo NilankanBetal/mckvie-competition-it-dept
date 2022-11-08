@@ -150,3 +150,16 @@ footer {
     padding-bottom: 1rem;
     padding-right: 1rem;
 }
+
+<!-- For org icons -->
+.org-icons {
+    height: 25%;
+    width: 25%;
+}
+
+#org-icon {
+    background-color: #1B2430;
+    text-align: center;
+    padding: 6% 10%;
+    color: antiquewhite;
+}

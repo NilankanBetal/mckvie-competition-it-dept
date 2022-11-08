@@ -119,8 +119,12 @@ footer {
     gap: 2rem
 }
 
-.venue-content {
+/* Venue */
+#venue{
     background-color: #1B2430;
+}
+
+.venue-content {
     text-align: center;
     /* padding: 6% 10%; */
     color: antiquewhite;

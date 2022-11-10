@@ -163,3 +163,14 @@ footer {
     padding: 6% 10%;
     color: antiquewhite;
 }
+
+/* Styles of rounds */
+
+.round {
+    font-size: xx-large;
+    color: #28db97;
+}
+
+.content-round {
+    font-size: x-large;
+}
